@@ -1,5 +1,5 @@
-## Kmail Enhanced Dark
+# Kmail Enhanced Dark
 
-Kmail 5.2 theme with dark background and white text.
+Enhanced Kmail 5.2 theme for dark Qt theme with dark background and light text.
 
-Create by copying the "Kmail 5.2" theme and modifying it to dark style.
+Created by copying the "Kmail 5.2" theme and modifying it to dark style.
