@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF !important;
+}
+div#headerbox {
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    color: rgb(200, 200, 200) !important;
+    overflow: auto;
+    padding: 5px 20px;
+}
+div#headerbox table.outer {
+    display: inline;
+    position: fixed !important;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: 0px;
+    border: none !important;
+    table-collapse: collapse;
+}
+div#headerbox div#subject {
+    color: rgb(200, 200, 200) !important;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+div#headerbox div#photo {
+    float: left;
+    margin: 5px;
+}
+div#headerbox div.table {
+    display: table;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+div#headerbox div.row {
+    display: table-row;
+}
+div#headerbox div.headerleft {
+    display: table-cell;
+    padding: 0.1em 1em;
+}
+div#headerbox div.headerright {
+    display: table-cell;
+    font-weight: bold;
+    padding: 0.1em;
+}
+div#headerbox div.headerrightdate {
+    color: rgb(170, 175, 179) !important;
+    display: table-cell;
+    font-weight: bold;
+    padding: 0.1em;
+}
+div#headerbox .actiontable {
+   display: table;
+   width: 100%;
+}
+div#headerbox div.actionrowtable {
+   display:table-row;
+}
+div#headerbox div.theactioncell {
+    display: table-cell;
+    padding: 0px 2px; /* just some padding, if needed*/
+    white-space: pre; /* this will avoid line breaks*/
+}
+div#headerbox div.theactionbigcell{
+    display: table-cell;
+    width: 100%; /* this will shrink other cells */
+}
+
+div#attachmentInjectionPoint div{
+    color: #FFFFFF;
+    background-color: #141414 !important;
+    padding: 3px;
+}
+div#attachmentInjectionPoint span{
+    border-color: #555555 !important;
+}
+
+#kmailContent {
+    clear: both;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+@media print {
+body {
+    color: black !important;
+}
+div#headerbox {
+    color: black !important;
+}
+div#headerbox div#subject {
+	color: black !important;
+}
+div#attachmentInjectionPoint div{
+    color: black !important;
+    background-color: white !important;
+}
+}
